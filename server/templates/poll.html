@@ -1,0 +1,31 @@
+{% extends 'base_quiz_poll.html' %}
+
+{% block title %}Polling{% endblock %}
+
+{% block onLoad %}
+{% if not android %}
+onLoad="qp_player.loadPoll('{{ document_id }}')"
+{% endif %}
+{% endblock %}
+
+{% block content %}
+{% if android %}
+<h1>Polling</h1>
+<p>You need the Quiz &amp; Poll Android app to access this poll.</p>
+<ul>
+  <li><a href="market://details?id=org.quizpoll">Download it from Market</a></li>
+  <li>When you have the app, click the link to the poll again and open it in Quiz &amp; Poll.</li>
+</ul>
+<p><a href="http://quiz-n-poll.appspot.com" target="_blank">Learn more about the Quiz &amp; Poll application</a></p>
+{% else %}
+<h1 id="title"></h1>
+<p id="status">Loading web player ...</p>
+<div id="question">
+  <p id="question_text" />
+  <div id="answers"></div>
+  <br />
+  <p id="hint">Choose all correct answers.</p>
+  <input type="button" id="submit_answer" />
+</div>
+{% endif %}
+{% endblock %}

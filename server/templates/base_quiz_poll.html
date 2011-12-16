@@ -1,0 +1,33 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+  dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}"
+  xml:lang="{% firstof LANGUAGE_CODE 'en' %}"
+  lang="{% firstof LANGUAGE_CODE 'en' %}">
+<head>
+<meta name="viewport"
+  content="width=320px; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<title>{% block title %}{% endblock %}</title>
+<link rel="stylesheet" type="text/css"
+  href="/static/quiz_poll.css" />
+<script type="text/javascript"
+  src="/static/closure-lite.js"></script>
+<script type="text/javascript"
+  src="/static/quiz_poll_player.js"></script>
+</head>
+<body {% block onLoad %}{% endblock %}>
+  <div id="outer">
+    <div id="middle">
+      <div id="inner">{% block content %}{% endblock %}</div>
+    </div>
+  </div>
+</body>
+</html>
+<!--
+Copyright 2011 Google Inc. All Rights Reserved.
+
+Use of this source code is governed by an Apache 2.0 License.
+See the COPYING file for details.
+-->

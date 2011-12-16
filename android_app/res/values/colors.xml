@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Google Inc. All Rights Reserved. -->
+<resources>
+  <color name="lightgray">#a09f9d</color>
+  <color name="actionbar_text">#ff29549f</color>
+  <color name="accent_1">#ff29549f</color>
+  <color name="positive">#0c710c</color>
+  <color name="negative">#ae2d19</color>
+  <color name="actionbar_start">#efefef</color>
+  <color name="actionbar_end">#d4d4d4</color>
+  <color name="pressed_start">#ffd468</color>
+  <color name="pressed_end">#ea9f00</color>
+  <color name="important_btn_start">#449def</color>
+  <color name="orange">#e75f04</color>
+</resources>

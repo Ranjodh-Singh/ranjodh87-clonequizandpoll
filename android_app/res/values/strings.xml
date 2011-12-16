@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Google Inc. All Rights Reserved. -->
+<resources>
+
+    <string name="app_name">Quiz &amp; Poll</string>
+    <string name="students_can_nfc">Students can tap their NFC phones now</string>
+    <string name="or">or</string>
+    <string name="write_to_sticker">Write to NFC Sticker</string>
+    <string name="about">About</string>
+    <string name="nfc_not_available">FC not available. Students should scan QR code instead.</string>
+    <string name="verifying_google_account">Verifying Google Account …</string>
+    <string name="connection_error">ou are not connected to internet. Connect and try again.</string>
+    <string name="server_error">Server error. Try again.</string>
+    <string name="not_found_error">URL not found. Contact developer.</string>
+    <string name="google_account_required">You need to add Google account to this phone.</string>
+    <string name="sticker_write_success">You can now use the sticker instead of phone</string>
+    <string name="nfc_sticker_message">Put you phone near writable NFC sticker …</string>
+    <string name="cancel">Cancel</string>
+    <string name="tag_read_only">Tag read-only</string>
+    <string name="exceeded_tag_capacity">Exceeded tag capacity</string>
+    <string name="quiz_games">Quiz Games</string>
+    <string name="mail_label">Feedback, problems, ideas?</string>
+    <string name="mail_action">Email developer</string>
+    <string name="web_label">Read help, see future plans:</string>
+    <string name="web_action">Visit website</string>
+    <string name="created_by">Created by</string>
+    <string name="learning_labs">Learning Technology Team @ Google</string>
+    <string name="opensource_under">Open-sourced under</string>
+    <string name="apache_20">Apache 2.0 License</string>
+    <string name="feedback_subject">Feedback from Quiz &amp; Poll</string>
+    <string name="feedback_text">What phone do you have?\n%s\n\nYour feedback here:\n</string>
+    <string name="auth_failed">Auth failed or wrong permission setup</string>
+    <string name="fetching_quiz_games">Fetching quiz games …</string>
+    <string name="public_quizzes">Public quizzes</string>
+    <string name="loading_quiz">Loading quiz …</string>
+    <string name="game_rules">You will answer 10 questions. You have 2 minutes for each question. Quicker you answer,
+    more points you get. Incorrect answer costs you 100 points.</string>
+    <string name="start">Start Game</string>
+    <string name="format_error">Incorrect format of the underlying spreadsheet</string>
+    <string name="sticker_write_error">Error during writing to sticker</string>
+    <string name="loading_session">Loading session …</string>
+    <string name="submit">Submit</string>
+    <string name="timer">Timer</string>
+    <string name="score">Score</string>
+    <string name="question_number">Question %1$d/%2$d</string>
+    <string name="multiple_choice">(multiple choice)</string>
+    <string name="submitting_score">Submitting score …</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="show_leaderboard">Leaderboard</string>
+    <string name="fetching_leaderboard">Fetching leaderboard …</string>
+    <string name="refresh">Refresh</string>
+    <string name="quiz_game_detail">Quiz Game detail</string>
+    <string name="share_quiz">Share Quiz</string>
+    <string name="my_own_quiz_games">My Own Quiz Games</string>
+    <string name="share_by_email">Share by email</string>
+    <string name="email_subject_quiz">Quiz Game: %s</string>
+    <string name="email_text">Click this link:\n\n%s</string>
+    <string name="try_again">Try again</string>
+    <string name="less_than_highscore">Your score was %s, that\'s less than your highscore</string>
+    <string name="new_highscore">New highscore! How about beating people above you?</string>
+    <string name="no_1">You are no.1 in this quiz! Congratulations!</string>
+    <string name="loading_polling">Loading Polling …</string>
+    <string name="waiting_for_instructor">Waiting for instructor …</string>
+    <string name="submitting_answer">Submitting answer …</string>
+    <string name="running_polling">Polling</string>
+    <string name="exit">Exit Polling</string>
+    <string name="polling_is_closed">Polling is closed</string>
+    <string name="this_question_is_anonymous">This question is anonymous</string>
+    <string name="create_own_game">Create own game</string>
+    <string name="create_description">Creating own game is easy! You will just copy a template spreadsheet and edit questions.
+         Then you can easily share it with your friends or students of your class and test their knowledge.</string>
+    <string name="read_more">Read more</string>
+    <string name="wrong_permissions_error">Underlying spreadsheet has incorrect permissions</string>
+    <string name="update_required">Update required</string>
+    <string name="update_required_description">You need newest version of the app in order to use it.</string>
+    <string name="go_to_market">Go to Market</string>
+    <string name="polling">Polling</string>
+    <string name="create_own_poll">Create own poll</string>
+    <string name="create_poll_description">Creating own poll is easy! You will just copy a template spreadsheet and edit questions.
+         Then you can easily share it with your friends or students of your class and test their knowledge.</string>
+    <string name="scan_poll_qr">Scan poll QR</string>
+    <string name="recent_polls">Recent Polls</string>
+    <string name="choose_all_correct">Choose all correct answers</string>
+    <string name="share_poll">Share Poll</string>
+    <string name="no_recent_polls">You didn\'t participate in any polls yet. Ask your instructor or create one for your friends.</string>
+    <string name="goggles_needed">Please install Google Goggles from Android Market first.</string>
+    <string name="loading">Loading …</string>
+    <string name="unsupported_qr_code">Unsupported QR code</string>
+    <string name="qr_scan_failed">QR scanning failed</string>
+    <string name="rate_label">Like Quiz &amp; Poll?</string>
+    <string name="rate_action">Rate on Android Market</string>
+
+</resources>

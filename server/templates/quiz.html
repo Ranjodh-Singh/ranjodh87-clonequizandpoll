@@ -1,0 +1,51 @@
+{% extends 'base_quiz_poll.html' %}
+
+{% block title %}Quiz Game{% endblock %}
+
+{% block onLoad %}
+{% if not android %}
+onLoad="qp_player.loadQuiz('{{ document_id }}')"
+{% endif %}
+{% endblock %}
+
+{% block content %}
+{% if android %}
+<h1>Quiz Games</h1>
+<p>You need the Quiz &amp; Poll Android app to access this quiz.</p>
+<ul>
+  <li><a href="market://details?id=org.quizpoll">Download it from Market</a></li>
+  <li>When you have the app, click the link to the quiz again and open it in Quiz &amp; Poll.</li>
+</ul>
+<p><a href="http://quiz-n-poll.appspot.com" target="_blank">Learn more about the Quiz &amp; Poll application</a></p>
+{% else %}
+<h1 id="title"></h1>
+<p id="status">Loading web player ...</p>
+<div id="info">
+  <p id="description"></p>
+  <img id="quiz_image" src="#" alt="Quiz Image"/>
+  <br />
+  <input type="button" id="start_quiz" value="Start" />
+  <br />
+  <a id="show_leaderboard">Leaderboard</a>
+</div>
+<div id="question">
+  <div id="score_bar">
+    <div id="timer">Timer: <strong id="timer_value">120 s</strong></div>
+    <div id="score">Score: <strong id="score_value">0</strong></div>
+  </div>
+  <div class="clear"></div>
+  <p id="question_text" />
+  <div id="answers"></div>
+  <br />
+  <p id="hint">Choose all correct answers.</p>
+  <input type="button" id="submit_answer" value="Submit" />
+</div>
+<div id="leaderboard" >
+  <p id="leaderboard_title">Leaderboard:</p>
+  <ol id="leaderboard_entries">
+  </ol>
+  <p id="last_score">Your score was: <strong id="last_score_value">0</strong></p>
+  <input type="button" id="back" value="Back" />
+</div>
+{% endif %}
+{% endblock %}

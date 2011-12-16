@@ -1,0 +1,9 @@
+*.pyc
+atom/
+autoload/
+dbindexer/
+django/
+djangoappengine/
+djangotoolbox/
+gdata/
+
