@@ -6,4 +6,5 @@ django/
 djangoappengine/
 djangotoolbox/
 gdata/
+.gaedata/
 
